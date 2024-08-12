@@ -1,0 +1,100 @@
+body{
+    background-image: linear-gradient( to bottom, white 50%, darkblue 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.left{
+    background-color: white;
+    flex: 1;
+    border-bottom-right-radius: 150px;
+    justify-content: center;
+
+}
+.right{
+    background-color: darkblue;
+    flex: 1;
+    border-top-left-radius: 150px;
+}
+.forgot{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.third{
+    border: 3px solid green;
+    text-align: center;
+    height: 450px;
+    border-radius: 20px;
+    box-shadow: 10px;
+    justify-content: center;
+    max-width: 50%;
+    background-color: white;
+    margin: 18%;
+}
+form{
+    margin-top: 30px;
+    text-align: center;
+    height: 350px;
+    border-radius: 10px;
+    justify-content: center;
+    color: blueviolet;
+    max-width: 100%;
+    background-color: transparent;
+    border-color: brown;
+    border: solid;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+input{
+    margin-top: 7%;
+    padding: 0.5rem;
+    background-color: unset;
+    border: solid;
+    border-color: blueviolet;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 90%;
+    color: red;
+    padding-right: 20px;
+}
+input::placeholder{
+    color: black;
+    font-size: 15px;
+}
+.forgot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6px;
+    font-size: 9px;
+}
+a{
+    text-decoration: none;
+
+}
+input[type="submit"] {
+    background-color: darkorange;
+    border-radius: 10px;
+    border: 3px solid grey;
+}
+input[type="submit"]:hover{
+    background-color: deeppink;
+    border: 2px solid grey;
+}
